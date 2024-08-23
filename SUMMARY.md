@@ -1,17 +1,25 @@
 # Table of contents
 
-* [Welcome](README.md)
-
-## Getting Started
-
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Intro](README.md)
+* [Alpha Testing](alpha-testing/README.md)
+  * [Testing plan](alpha-testing/testing-plan.md)
+  * [Requirements](alpha-testing/requirements.md)
+  * [Guide](alpha-testing/guide.md)
+* [Quick start](quick-start/README.md)
+  * [Nodes boostrap](quick-start/nodes-boostrap/README.md)
+    * [Storage Node](quick-start/nodes-boostrap/storage-node.md)
+    * [Compute Node](quick-start/nodes-boostrap/compute-node.md)
+    * [Stream Node](quick-start/nodes-boostrap/stream-node.md)
+    * [Client](quick-start/nodes-boostrap/client.md)
+  * [DApp](quick-start/dapp/README.md)
+    * [Space](quick-start/dapp/space.md)
+    * [List](quick-start/dapp/list.md)
+    * [Buy](quick-start/dapp/buy.md)
+* [Architecture](architecture.md)
+* [Components](components/README.md)
+  * [Unibase DA++](components/unibase-da++.md)
+  * [Unibase Storage](components/unibase-storage.md)
+  * [Unibase Chain](components/unibase-chain.md)
+* [Developers](developers/README.md)
+  * [SDK](developers/sdk.md)
+  * [API Reference](developers/api-reference.md)
