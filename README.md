@@ -22,9 +22,6 @@ Current data availability solutions like EigenDA, Celestia, and Avail are primar
 * **Depin Sector**: Serving as the high-performance DA solution in IoTeX's modular 2.0 architecture, benefiting hundreds of Depin projects in their ecosystem.
 * **Miners**: Engaged with several large mining pools to participate in the testnet and mainnet launch.
 
-#### Status
 
-* **Seed Round**
-* **Mainnet Launch**: Scheduled for Q4
 
 Unibase stands out by providing a robust, scalable, and secure solution for the growing demands of on-chain AI and Depin applications, leveraging the strengths of Ethereum's security and the vast potential of decentralized infrastructure.
