@@ -16,12 +16,4 @@ Current data availability solutions like EigenDA, Celestia, and Avail are primar
 * **High-Performance Data Availability Layer**: A modular solution for AI and Depin public chains.
 * **On-Chain Application Development**: Supports applications in various sectors, including Agent, Depin, Gaming, and Social.
 
-#### Ecosystem Collaboration
-
-* **AI Sector**: Collaborating with over twenty AI-related applications or Agent chain projects.
-* **Depin Sector**: Serving as the high-performance DA solution in IoTeX's modular 2.0 architecture, benefiting hundreds of Depin projects in their ecosystem.
-* **Miners**: Engaged with several large mining pools to participate in the testnet and mainnet launch.
-
-
-
 Unibase stands out by providing a robust, scalable, and secure solution for the growing demands of on-chain AI and Depin applications, leveraging the strengths of Ethereum's security and the vast potential of decentralized infrastructure.
