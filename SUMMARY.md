@@ -19,6 +19,7 @@
   * [Wallet & Identity](membase/identity.md)
   * [Domains & Encryption](membase/authorization.md)
   * [Memory & Recall](membase/memory.md)
+  * [Storage Backends](membase/storage-backends.md)
   * [Cooperation Protocol](membase/cooperation.md)
   * [Settlement](membase/settlement.md)
   * [Integration Options](membase/integration-options.md)

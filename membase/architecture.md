@@ -37,7 +37,7 @@ The **Server is optional**. Memory, domains, and the cooperation protocol run ag
 
 | Layer | Responsibility | You use |
 |---|---|---|
-| **Persistence** | Wallet-rooted, addressable storage: visibility namespaces, domain-keyed encryption, signed + hash-chained writes, cross-device sync. | `private()`, `create_domain()`, `set()/get()` |
+| **Persistence** | Wallet-rooted, addressable storage: visibility namespaces, domain-keyed encryption, signed + hash-chained writes, cross-device sync. Writes through a pluggable [storage backend](storage-backends.md) — the hot Hub by default, or Unibase DA for verifiable long-term durability. | `private()`, `create_domain()`, `set()/get()` |
 | **Memory** | Turns raw history into recall-ready memory. *Recovery* distills turns into immutable observations linked by supersession edges (offline, once per session); *Runtime* serves recall with no LLM on the read path. | `memory.ingest()`, `memory.recall()`, `memory.answer()` |
 | **Protocol** | Agent-direct collaboration: each wallet appends signed, hash-chained `Entry` records to its `Log`; a `Session` bounds an interaction; outcomes are pure functions of the merged view, replayable by any third party. | `Cooperation`, `core.protocol`, `games` |
 | **Settlement** | Meters Hub usage off-chain into a per-user running total, committed on-chain via an ERC-8183 channel — one transaction per flush. | `MembaseClient` metering / settle |

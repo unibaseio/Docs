@@ -57,6 +57,7 @@ print(alice.memory.answer("When is the Tokyo trip?", query_date="2026-08-01"))
 * [Architecture](architecture.md) — the agent-direct, four-layer design
 * [Wallet & Identity](identity.md) · [Domains & Encryption](authorization.md)
 * [Memory & Recall](memory.md) · [Cooperation Protocol](cooperation.md) · [Settlement](settlement.md)
+* [Storage Backends](storage-backends.md) — the hot Hub, or Unibase DA for verifiable durability
 * [Integration Options](integration-options.md)
 
 ### Resources

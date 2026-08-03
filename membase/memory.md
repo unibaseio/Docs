@@ -14,7 +14,7 @@ alice.private().set("profile/lang", {"value": "zh"})
 alice.private().get("profile/lang")          # → {"value": "zh"}
 ```
 
-Raw memory survives restarts and syncs across the user's devices via a wallet-derived key — no third party in the middle.
+Raw memory survives restarts and syncs across the user's devices via a wallet-derived key — no third party in the middle. For verifiable, long-term durability beyond hub retention, raw memory can write through the [Unibase DA storage backend](storage-backends.md) — a config change, transparent to your code.
 
 ### Recall: ingest → recall / answer
 
